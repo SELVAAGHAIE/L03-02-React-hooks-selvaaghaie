@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
+  .inputField {
+  font-family: 'Source Sans Pro Topnav', sans-serif;
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
+  border-radius: 5px;
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  }
+  .inputField:focus {
+    outline: none;
+    border: none;
+}
+.inputField:hover{
+  background-color: rgba(129, 123, 123, 0.25);
+}
+  .displayButton {
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #04AA6D;
+  color: #ffffff;
+  }
+  
+  .displayButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .text {
+    font-size: 18px;
+    color: #fbfbfb;
+  }
